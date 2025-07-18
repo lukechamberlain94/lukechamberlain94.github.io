@@ -195,13 +195,14 @@
             top: 0;
             z-index: 1000;
             transition: all 0.4s ease;
+            padding: 15px 0;
         }
 
         .navbar {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20px 0;
+            padding: 0;
         }
 
         .logo-text {
@@ -211,6 +212,7 @@
             color: var(--deep-navy);
             text-decoration: none;
             transition: all 0.3s ease;
+            line-height: 1;
         }
 
         .logo-text span {
@@ -1098,7 +1100,7 @@
             
             .navbar {
                 flex-direction: column;
-                padding: 15px 0;
+                padding: 0;
             }
             
             .nav-links {
@@ -1112,7 +1114,7 @@
             }
             
             .hero {
-                padding: 160px 0 80px;
+                padding: 140px 0 80px;
                 text-align: center;
             }
             
@@ -1122,6 +1124,7 @@
             
             .hero h1 {
                 font-size: 2.3rem;
+                margin-top: 0;
             }
             
             .hero p {
@@ -1139,6 +1142,14 @@
 
             .coach-grid {
                 grid-template-columns: 1fr;
+            }
+
+            header {
+                padding: 10px 0;
+            }
+
+            .logo-text {
+                font-size: 1.5rem;
             }
         }
 
@@ -1169,11 +1180,16 @@
             }
 
             .hero {
-                padding-top: 120px;
-                min-height: 100vh;
+                padding-top: 100px;
+                min-height: calc(100vh - 60px);
             }
             .hero h1 {
-                margin-top: 0;
+                font-size: 1.8rem;
+                line-height: 1.3;
+                margin-bottom: 15px;
+            }
+            .hero p {
+                font-size: 1.1rem;
             }
         }
     </style>
@@ -1498,7 +1514,7 @@
                          class="coach-image">
                     <h3>Savannah Cave</h3>
                     <div class="coach-role">Operations & Performance Specialist</div>
-                    <p>Operations whiz who turns chaotic coaching into streamlined success. Originally from Wales, I can smash a Sudoku in under 4 minutes, and have a talent for building systems that don't fall apart after a week. My weakness? Warm almond croissants and an ongoing feud with Alexa (she started it). I focus on creating sustainable processes that deliver long term results with no quick fixes or fluff.</p>
+                    <p>Operations whiz from Wales with a knack for turning chaotic coaching into streamlined success. With a background in healthcare, real estate and compliance, I’m passionate about building systems that actually work and putting people first. I care about delivering a great experience with no fluff, just reliable, customer focused processes that adapt and deliver real results. I can crack a Sudoku in under four minutes, never say no to a sweet treat and a flat white, and I’m surprisingly handy with a toolbox. </p>
                     <div class="coach-social">
                         <a href="https://www.linkedin.com/in/savannah-cave-380276220/" target="_blank" rel="noopener noreferrer">
                             <i class="fab fa-linkedin"></i> Find Me On LinkedIn
