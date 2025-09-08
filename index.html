@@ -783,13 +783,13 @@
             color: var(--electric-cyan);
         }
 
-        /* Pricing Section */
-        .pricing {
+        /* Packages Section */
+        .Packages {
             background-color: var(--cool-gray);
             position: relative;
         }
 
-        .pricing:before {
+        .Packages:before {
             content: '';
             position: absolute;
             top: 50px;
@@ -800,7 +800,7 @@
             z-index: 0;
         }
 
-        .pricing-container {
+        .Packages-container {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
@@ -808,7 +808,7 @@
             margin-top: 50px;
         }
 
-        .pricing-card {
+        .Packages-card {
             flex: 1;
             min-width: 300px;
             max-width: 380px;
@@ -823,7 +823,7 @@
             z-index: 1;
         }
 
-        .pricing-card:hover {
+        .Packages-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
         }
@@ -857,7 +857,7 @@
             z-index: 2;
         }
 
-        .pricing-card h3 {
+        .Packages-card h3 {
             color: var(--deep-navy);
             margin-bottom: 15px;
         }
@@ -875,24 +875,24 @@
             font-weight: 400;
         }
 
-        .pricing-features {
+        .Packages-features {
             list-style: none;
             margin: 30px 0;
             text-align: left;
         }
 
-        .pricing-features li {
+        .Packages-features li {
             padding: 12px 0;
             border-bottom: 1px solid var(--light-slate);
             padding-left: 30px;
             position: relative;
         }
 
-        .pricing-features li:last-child {
+        .Packages-features li:last-child {
             border-bottom: none;
         }
 
-        .pricing-features li:before {
+        .Packages-features li:before {
             content: "✓";
             position: absolute;
             left: 0;
@@ -1167,7 +1167,7 @@
                 font-size: 1rem;
             }
             
-            .step, .pricing-card {
+            .step, .Packages-card {
                 min-width: 100%;
             }
 
@@ -1204,7 +1204,7 @@
                     <li><a href="#what-we-do">What We Do</a></li>
                     <li><a href="#who-its-for">Who It's For</a></li>
                     <li><a href="#how-it-works">How It Works</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#Packages">Packages</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -1525,18 +1525,18 @@
         </div>
     </section>
 
-  <!-- Pricing Section -->
-<section id="pricing" class="pricing">
+  <!-- Packages Section -->
+<section id="Packages" class="Packages">
     <div class="container">
         <div class="section-title-center">
             <h2>Coaching Packages</h2>
             <p>Flexible, tailored options designed for both individual recruiters and agency teams.</p>
         </div>
-        <div class="pricing-container">
-            <div class="pricing-card popular">
+        <div class="Packages-container">
+            <div class="Packages-card popular">
                 <div class="popular-badge">Most Popular</div>
                 <h3>8 Week Transformation</h3>
-                <ul class="pricing-features">
+                <ul class="Packages-features">
                     <li>8 x 60 minute coaching sessions</li>
                     <li>Full desk dive & process overhaul</li>
                     <li>Comprehensive sustainability planning</li>
@@ -1545,9 +1545,9 @@
                 </ul>
                 <a href="https://meetings-ap1.hubspot.com/luke-chamberlain" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Book a Call to Discuss</a>
             </div>
-            <div class="pricing-card">
+            <div class="Packages-card">
                 <h3>4 Week Intensive</h3>
-                <ul class="pricing-features">
+                <ul class="Packages-features">
                     <li>4 x 60 minute coaching sessions</li>
                     <li>Focus on 2-3 critical challenges</li>
                     <li>Immediate improvement strategies</li>
@@ -1588,7 +1588,7 @@
                         <li><a href="#what-we-do">What We Do</a></li>
                         <li><a href="#who-its-for">Who It's For</a></li>
                         <li><a href="#how-it-works">How It Works</a></li>
-                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#Packages">Packages</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -1680,7 +1680,7 @@
         });
 
         // Add subtle hover animations to all interactive elements
-        const interactiveElements = document.querySelectorAll('.service-card, .audience-card, .step, .coach-card, .pricing-card');
+        const interactiveElements = document.querySelectorAll('.service-card, .audience-card, .step, .coach-card, .Packages-card');
         interactiveElements.forEach(element => {
             element.addEventListener('mouseenter', () => {
                 element.style.transform = 'translateY(-5px)';
